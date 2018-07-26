@@ -9,6 +9,8 @@ library and [textblob](https://textblob.readthedocs.io/en/dev/) library to perfo
 
 - TextBlob(https://textblob.readthedocs.io/en/dev/)
 
+- Pandas(pip install pandas)
+
 ##Usage
 
 Once you have your dependencies installed via pip, run the script in terminal via
