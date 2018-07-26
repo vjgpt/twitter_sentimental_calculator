@@ -4,11 +4,11 @@ import re
 import pandas as pd
 
 # Step 1 - Authenticate
-consumer_key= 'ONRR0djSn7Heg4jrMJ21r6hK4'
-consumer_secret= 'DOmej5n9mWodMjzTHs8gzZVxlxQYStUaaTmnCS6jjPmv0OSJ5Z'
+consumer_key= 'CONSUMER_KEY'
+consumer_secret= 'CONSUMER_SECRET'
 
-access_token='620778704-EBSW7FgfGmb4tADHTLWKuTJ9x22OpDiQm9VVZawY'
-access_token_secret='ag4Xe0Fxua2k2FkkQfvlCcWJqAaoWtE1xvMzEJHPBIbob'
+access_token='ACCESS_TOKEN'
+access_token_secret='ACCESS_TOKEN_SECRET'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
